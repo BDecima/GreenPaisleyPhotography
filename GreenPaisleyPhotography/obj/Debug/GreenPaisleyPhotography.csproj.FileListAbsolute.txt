@@ -1,0 +1,7 @@
+C:\Solutions\Personal\GreenPaisleyPhotography\GreenPaisleyPhotography\bin\GreenPaisleyPhotography.dll
+C:\Solutions\Personal\GreenPaisleyPhotography\GreenPaisleyPhotography\bin\GreenPaisleyPhotography.pdb
+C:\Solutions\Personal\GreenPaisleyPhotography\GreenPaisleyPhotography\bin\EntityFramework.dll
+C:\Solutions\Personal\GreenPaisleyPhotography\GreenPaisleyPhotography\bin\EntityFramework.xml
+C:\Solutions\Personal\GreenPaisleyPhotography\GreenPaisleyPhotography\obj\Debug\ResolveAssemblyReference.cache
+C:\Solutions\Personal\GreenPaisleyPhotography\GreenPaisleyPhotography\obj\Debug\GreenPaisleyPhotography.dll
+C:\Solutions\Personal\GreenPaisleyPhotography\GreenPaisleyPhotography\obj\Debug\GreenPaisleyPhotography.pdb

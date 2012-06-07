@@ -1,0 +1,14 @@
+v1.1.1 (11.05.12)
+- Revised style.css				// version change 
+- Revised style/js/zeta-slider.min.js		// improve
+
+v1.1 (30.04.12)
+- Revised style.css				// gallery slider on top option, single gallery page style
+- Revised style/css/media-queries.css		// gallery images class name change
+- Revised style/js/zeta-slider.min.js		// new features: gallery on top, control w/ arrow keys+esc, hashtag change after close, single gallery
+- Revised index.html				// gallery paths changed
+- Revised index2.html				// gallery paths changed
+- Revised gallery html files			// they all been moved to the root and content's been changed
+
+v1.0 (05.04.12)
+- Initial release

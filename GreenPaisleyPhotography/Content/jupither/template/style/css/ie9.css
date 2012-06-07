@@ -1,0 +1,45 @@
+img.attachment,
+img.attachment, img.frame,
+img.left, .alignleft,
+img.right, .alignright,
+img.center, .aligncenter,
+.map iframe,
+.box,
+.menu ul li ul,
+.side-content .post .heading .date, 
+.side-content .post .heading .title, 
+.side-content .post .heading .comment,
+.side-content .post .related ul li,
+.side-content .post .tip,
+.sidebox h3,
+.sidebox ul.posts-list li img,
+.sidebox ul.tag-list li a,
+.page-navi ul li a,
+.thumbnail-wrapper.col4 .zetaThumbs li,
+.thumbnail-wrapper.col2 .zetaThumbs li,
+.toggle h4.title,
+.togglebox,
+ul.tabs li a,
+.tab_container {
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.forms fieldset .btn-submit  {
+	padding-top: 0;
+	padding-bottom: 1px;
+	line-height: 22px;
+}
+
+a.button  {
+	line-height: 28px;
+}
+
+.searchform input {
+	line-height: 14px;
+}
+
+.sidebox ul.tag-list li a {
+	padding: 1px 10px 2px;
+}

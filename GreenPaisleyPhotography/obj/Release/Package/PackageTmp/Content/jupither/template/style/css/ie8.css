@@ -1,0 +1,13 @@
+.searchform input {
+	line-height: 17px;
+}
+
+.forms fieldset .text-input {
+	line-height: 19px;
+}
+
+.forms fieldset .btn-submit  {
+	padding-top: 0;
+	padding-bottom: 1px;
+	line-height: 22px;
+}

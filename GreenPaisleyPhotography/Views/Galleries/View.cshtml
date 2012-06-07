@@ -1,0 +1,13 @@
+﻿@model GreenPaisleyPhotography.Models.GalleryModel
+@{
+    ViewBag.Title = "Gallery";
+    ViewBag.Message = "Gallery";
+}
+<!-- Begin Gallery Content -->
+<div class="content single-portfolio-content">
+    @foreach(var image in Model.Images)
+    {
+        <div><img src="@Url.Content(image.Path)" alt="@image.Note" /></div>
+    }
+</div>
+<!-- End Gallery Content -->

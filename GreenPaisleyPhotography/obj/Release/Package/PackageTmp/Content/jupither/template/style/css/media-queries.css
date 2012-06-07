@@ -1,0 +1,639 @@
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+img {
+	max-width: 100%;
+}
+
+.zetaEmpty div img {
+	max-width: inherit;
+}
+
+.wrapper {
+	width: 720px;
+}
+
+.bottom {
+	width: 720px;
+}
+
+.intro p {
+	float: none;
+	width: 100%;
+	border-right: none;
+	padding-right: 0;
+	text-align: center;
+}
+
+.intro .social {
+	width: 100%;
+	float: none;
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+.thumbnail-wrapper {
+	width: 740px;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li,
+.thumbnail-wrapper.col4 .zetaThumbs li {
+	width: 228px;
+	height: auto;
+	margin: 0 18px 18px 0;	
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li .text,
+.thumbnail-wrapper.col4 .zetaThumbs li .text {
+	float: none;
+	text-align: center;
+	width: auto;
+	padding: 10px 15px;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li .text h4,
+.thumbnail-wrapper.col4 .zetaThumbs li .text h4 {
+	margin: 0;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li .text p,
+.thumbnail-wrapper.col2 .zetaThumbs li .text h4:after,
+.thumbnail-wrapper.col4 .zetaThumbs li .text p,
+.thumbnail-wrapper.col4 .zetaThumbs li .text h4:after {
+	display: none;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li img,
+.thumbnail-wrapper.col4 .zetaThumbs li img {
+	width: 228px;
+	height: auto;
+	float: none;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li span.roll,
+.thumbnail-wrapper.col4 .zetaThumbs li span.roll {
+    width: 228px;
+	height: 186px;	
+} 
+
+.zetaWarning {
+    top:200px;
+}
+
+.zetaHolder {
+	height:490px;
+}
+.zetaEmpty {
+	height:400px;
+}
+	
+.zetaEmpty div {
+	height:400px;
+}
+
+.footer-wrapper {
+	width: 720px;
+}
+
+.footer {
+	width: 750px;
+}
+
+.footer .sidebox {
+	width: 220px;
+}
+
+.side-content {
+	width: 480px;
+}
+
+.side-content img {
+	max-width: 470px;
+}
+
+.side-content .post .heading .title {
+	width: 352px;
+	max-width: 352px;
+}
+
+.side-content .post .related ul li, 
+.side-content .post .related ul li img.thumbnail {
+	width: 74px;
+	height: auto;
+}
+
+.side-content .post .tip,
+.side-content .post .tip img {
+	width: 350px; 
+	height: 193px; 
+}
+
+.sidebar {
+	width: 215px;
+}
+
+.sidebox ul.popular-posts li span {
+	display: block;
+}
+
+.sidebox .searchform input {
+	width: 193px;
+	background-position: 187px center;
+}
+
+.sidebox .form-container {
+	width: 220px;
+}
+
+.sidebox .forms fieldset .text-input {
+	width: 198px;
+}
+
+.sidebox .forms fieldset .text-area {
+	width: 198px;
+	height: 150px;
+}
+
+.side-content .forms fieldset .text-input {
+	width: 460px;
+}
+
+.side-content .forms fieldset .text-area {
+	width: 460px;
+}
+
+.side-content iframe {
+	max-width: 470px !important;
+}
+
+.single-portfolio-content img {
+	max-width: 470px;
+}
+
+}/* END Smaller than standard 960 (devices and browsers) */
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+img {
+	max-width: 100%;
+}
+
+.zetaEmpty div img {
+	max-width: inherit;
+}
+
+img.left, .alignleft, img.right, .alignright, .frame {
+	float: none;
+	text-align: center;
+	display: block;
+	margin: 0 auto 15px;
+}
+
+.wrapper {
+	width: 440px;
+}
+
+.bottom {
+	width: 440px;
+}
+
+.logo {
+	float: none;
+	text-align: center;
+}
+
+.logo img {
+	display: inline;
+}
+
+.menu {
+	float: none;
+}
+
+.menu ul#tiny {
+	display: none;
+}
+
+.tinynav {
+	display: block;
+}
+      
+.intro p {
+	float: none;
+	width: 100%;
+	border-right: none;
+	padding-right: 0;
+	text-align: center;
+}
+
+.intro .social {
+	width: 100%;
+	float: none;
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+.thumbnail-wrapper {
+	width: 460px;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li,
+.thumbnail-wrapper.col4 .zetaThumbs li {
+	width: 211px;
+	height: auto;
+	margin: 0 18px 18px 0;	
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li .text,
+.thumbnail-wrapper.col4 .zetaThumbs li .text {
+	float: none;
+	text-align: center;
+	width: auto;
+	padding: 10px 15px;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li .text h4,
+.thumbnail-wrapper.col4 .zetaThumbs li .text h4 {
+	margin: 0;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li .text p,
+.thumbnail-wrapper.col2 .zetaThumbs li .text h4:after,
+.thumbnail-wrapper.col4 .zetaThumbs li .text p,
+.thumbnail-wrapper.col4 .zetaThumbs li .text h4:after {
+	display: none;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li img,
+.thumbnail-wrapper.col4 .zetaThumbs li img {
+	width: 211px;
+	height: auto;
+	float: none;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li span.roll,
+.thumbnail-wrapper.col4 .zetaThumbs li span.roll {
+    width: 211px;
+	height: 172px;	
+} 
+
+.zetaWarning, .zetaEmpty div span.caption {
+    display: none !important;
+}
+
+.zetaHolder {
+	padding: 46px 20px 20px 20px;
+	height:270px;
+}
+.zetaEmpty {
+	height:200px;
+}
+	
+.zetaEmpty div {
+	height:200px;
+}
+
+.footer-wrapper {
+	width: 440px;
+}
+
+.footer {
+	width: 470px;
+}
+
+.footer .sidebox {
+	width: 440px;
+	float: none;
+	margin-bottom: 30px;
+}
+
+.sidebox .form-container {
+	width: 440px;
+}
+
+.side-content .forms fieldset .text-input,
+.sidebox .forms fieldset .text-input {
+	width: 418px;
+}
+
+.side-content .forms fieldset .text-area,
+.sidebox .forms fieldset .text-area {
+	width: 418px;
+	height: 150px;
+}
+
+.side-content {
+	width: 440px;
+	float: none;
+}
+
+.side-content img {
+	max-width: 430px;
+}
+
+.side-content .post .heading .title {
+	width: 312px;
+	max-width: 312px;
+}
+
+.side-content .post .related ul li, 
+.side-content .post .related ul li img.thumbnail {
+	width: 66px;
+	height: auto;
+}
+
+.side-content .post .tip {
+	display: none !important;
+}
+
+.sidebar {
+	float: none;
+	width: 440px;
+	margin-top: 40px;
+}
+
+.sidebox ul.popular-posts li span {
+	display: block;
+}
+
+.sidebox .searchform input {
+	width: 418px;
+	background-position: 412px center;
+}
+
+.side-content iframe {
+	max-width: 430px !important;
+}
+
+.single-portfolio-content img {
+	max-width: 430px;
+}
+
+.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth, .one-sixth {
+	margin: 0;
+	width: 100%;
+}
+
+ul.tabs li {
+	float: none;
+	margin-right: 0;
+}
+
+ul.tabs li a {
+	display: block;
+	margin-bottom: 10px;
+}
+  
+}/* END Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+img {
+	max-width: 100%;
+}
+
+.zetaEmpty div img {
+	max-width: inherit;
+}
+
+img.left, .alignleft, img.right, .alignright, .frame {
+	float: none;
+	text-align: center;
+	display: block;
+	margin: 0 auto 15px;
+}
+
+.wrapper {
+	width: 280px;
+}
+
+.bottom {
+	width: 280px;
+}
+
+.logo {
+	float: none;
+	text-align: center;
+}
+
+.logo img {
+	display: inline;
+}
+
+.menu {
+	float: none;
+}
+
+.menu ul#tiny {
+	display: none;
+}
+
+.tinynav {
+	display: block;
+}
+
+.intro p {
+	float: none;
+	width: 100%;
+	border-right: none;
+	padding-right: 0;
+	text-align: center;
+}
+
+.intro .social {
+	width: 100%;
+	float: none;
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+.thumbnail-wrapper {
+	width: 300px;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li,
+.thumbnail-wrapper.col4 .zetaThumbs li {
+	width: 131px;
+	height: auto;
+	margin: 0 18px 18px 0;	
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li .text,
+.thumbnail-wrapper.col4 .zetaThumbs li .text {
+	float: none;
+	text-align: center;
+	width: auto;
+	padding: 7px 15px;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li .text h4,
+.thumbnail-wrapper.col4 .zetaThumbs li .text h4 {
+	margin: 0;
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li .text p,
+.thumbnail-wrapper.col2 .zetaThumbs li .text h4:after,
+.thumbnail-wrapper.col4 .zetaThumbs li .text p,
+.thumbnail-wrapper.col4 .zetaThumbs li .text h4:after {
+	display: none;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li img,
+.thumbnail-wrapper.col4 .zetaThumbs li img {
+	width: 131px;
+	height: auto;
+	float: none;
+}
+
+.thumbnail-wrapper.col2 .zetaThumbs li span.roll,
+.thumbnail-wrapper.col4 .zetaThumbs li span.roll {
+    width: 131px;
+	height: 107px;	
+} 
+
+.zetaWarning, .zetaEmpty div span.caption {
+    display: none !important;
+}
+
+.zetaHolder {
+	padding: 46px 20px 20px 20px;
+	height:270px;
+}
+.zetaEmpty {
+	height:200px;
+}
+	
+.zetaEmpty div {
+	height:200px;
+}
+
+.footer-wrapper {
+	width: 280px;
+}
+
+.footer {
+	width: 310px;
+}
+
+.footer .sidebox {
+	width: 280px;
+	float: none;
+	margin-bottom: 30px;
+}
+
+.sidebox .form-container {
+	width: 280px;
+}
+
+.side-content .forms fieldset .text-input,
+.sidebox .forms fieldset .text-input {
+	width: 258px;
+}
+
+.side-content .forms fieldset .text-area,
+.sidebox .forms fieldset .text-area {
+	width: 258px;
+	height: 150px;
+}
+
+.side-content {
+	width: 280px;
+	float: none;
+}
+
+.side-content img {
+	max-width: 270px;
+}
+
+.side-content .post .related ul li, 
+.side-content .post .related ul li img.thumbnail {
+	width: 84px;
+	height: auto;
+}
+
+.side-content .post .heading .date, 
+.side-content .post .heading .comment {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.side-content .post .heading .title {
+	clear: both;
+	float: none;
+	margin: 10px 0 0 0;
+	width: 260px;
+	max-width: 260px;
+}
+
+.side-content .post .related ul li {
+	margin-left: 10px;
+	padding: 3px;
+}
+
+.side-content .post .related ul li, 
+.side-content .post .related ul li img.thumbnail {
+	width: 42px;
+	height: auto;
+}
+
+.side-content .post .tip {
+	display: none !important;
+}
+
+.sidebar {
+	float: none;
+	width: 280px;
+	margin-top: 40px;
+}
+
+.sidebox ul.popular-posts li span {
+	display: block;
+}
+
+.sidebox .searchform input {
+	width: 258px;
+	background-position: 252px center;
+}
+
+.side-content iframe {
+	max-width: 270px !important;
+}
+
+.single-portfolio-content img {
+	max-width: 270px;
+}
+
+.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth, .one-sixth {
+	margin: 0;
+	width: 100%;
+}
+
+ul.tabs li {
+	float: none;
+	margin-right: 0;
+}
+
+ul.tabs li a {
+	display: block;
+	margin-bottom: 10px;
+}
+  
+}/* END Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */

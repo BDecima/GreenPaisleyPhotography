@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Jupither HTML Help Documentation</title>
+<link rel="stylesheet" type="text/css" href="inc/layout.css" media="all" />
+
+<!--[if IE 7]>
+
+<link rel="stylesheet" type="text/css" href="style/css/ie.css" media="screen" />
+
+<![endif]-->
+
+<script type="text/javascript" src="inc/js/jquery-1.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+//Hide the tooglebox when page load
+$(".togglebox").hide();
+//slide up and down when click over heading 2
+$("h2").click(function(){
+// slide toggle effect set to slow you can set it to fast too.
+$(this).toggleClass("active").next(".togglebox").slideToggle("slow");
+return true;
+});
+});
+
+</script>
+
+</head>
+
+<body>
+
+<!-- Begin Second Wrapper -->
+
+<div id="wrapper">
+  <div id="logo"><a href="help.html">
+    <h4> "Jupither HTML" Documentation by "elemis" </h4>
+    </a>
+    <div class="clear"></div>
+  </div>
+  
+  <!-- Begin Question Block -->
+  
+  <div class="question-container">
+    <div class="info">
+      <div class="info-left"> Created: 04/04/2012<br>
+        By: elemis<br>
+        Email: <a href="http://themeforest.net/user/elemis">Contact form</a> </div>
+      <div class="info-right"> Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to send us an email using the contact form on our profile page <a href="http://themeforest.net/user/elemis">here</a>. If you wish to hire us for customizations we can help you for extra.</div>
+    </div>
+  </div>
+  <!-- End Question Block -->
+  
+  <div class="warning"><strong>IMPORTANT:</strong> Please note that since some browsers deny local AJAX requests, the portfolio gallery template won't run locally. Please test it on a working web server.</div>
+  
+  <div class="title">
+    <h3>Setting Up</h3>
+    <hr class="knot" />
+  </div>
+  
+<!-- Begin Question Block -->
+<div class="toggle">
+
+	<h2 class="trigger">Facebook Comments</h2>
+	<div class="togglebox">
+	<div>
+		<p>In the post.html file you need to change the page URL with your own URL for the Facebook Comments to work:</p> 
+		<img src="inc/images/6.jpg" alt="facebook" />
+	</div>
+	</div>
+</div>
+<!-- End Question Block -->
+
+<!-- Begin Question Block -->
+<div class="toggle">
+
+	<h2 class="trigger">Twitter Widget</h2>
+	<div class="togglebox">
+	<div>
+		<p>To pull your latest tweets in the Twitter widget, open <strong>style/js/scripts.js</strong> and enter your username on line 16:</p> 
+		<img src="inc/images/7.jpg" alt="twitter" />
+	</div>
+	</div>
+</div>
+<!-- End Question Block -->
+
+<!-- Begin Question Block -->
+<div class="toggle">
+
+	<h2 class="trigger">Contact Form</h2>
+	<div class="togglebox">
+	<div>
+		<p>To receive the messages sent through the contact forms, open up <strong>contact/form-handler.php</strong> and edit <strong>line 5</strong>:</p> 
+		<pre>$emailto = 'yourname@yourdomain.com';</pre>
+		
+		<p>For SMTP support edit <strong>line 4</strong>. Set to "1" if you want to use SMTP to send the email. Default is "0", which uses the standard PHP mail function.</p>
+		<pre>$use_smtp = '1';</pre>
+		
+		<p>If using SMTP you will also need to fill in the 4 SMTP variables - <strong>lines 64 - 67</strong>.</p>
+		
+		<pre>
+$SmtpServer = 'SMTP SERVER';
+$SmtpPort = 'SMTP PORT';
+$SmtpUser = 'SMTP USER';
+$SmtpPass = 'SMTP PASSWORD';
+		</pre>
+	</div>
+	</div>
+</div>
+<!-- End Question Block -->
+
+<!-- Begin Question Block -->
+<div class="toggle">
+
+	<h2 class="trigger">Changing Fonts</h2>
+	<div class="togglebox">
+	<div>
+		<p>For the fonts <em>@font-face</em> is being used. You can generate different font-face kits via <a href="http://www.fontsquirrel.com/fontface/generator" target="_blank">http://www.fontsquirrel.com/fontface/generator</a> and replace the existing fonts. Here's a good tutorial on working with @font-face: <a href="http://net.tutsplus.com/tutorials/design-tutorials/quick-tip-how-to-work-with-font-face/" target="_blank">link</a></p> 
+	</div>
+	</div>
+</div>
+<!-- End Question Block -->
+
+
+<!-- Begin Question Block -->
+<div class="toggle">
+
+	<h2 class="trigger">Responsive Design</h2>
+	<div class="togglebox">
+	<div>
+		<p>Media queries are included in <strong>style/css/media-queries.css</strong> for responsive design. If you would like to disable the responsiveness you can remove the link of this css file from the html files.</p> 
+	</div>
+	</div>
+</div>
+<!-- End Question Block -->
+
+<!-- Begin Question Block -->
+<div class="toggle">
+
+	<h2 class="trigger">Social Icons</h2>
+	<div class="togglebox">
+	<div>
+		<p>The template includes 22 social icons.</p> 
+		<ul>
+			<li><strong>Behance:</strong> icon-behance.png</li>
+			<li><strong>Delicious</strong>: icon-delicious.png</li>
+			<li><strong>Deviantart:</strong> icon-deviantart.png</li>
+			<li><strong>Digg:</strong> icon-digg.png</li>
+			<li><strong>Dribbble:</strong> icon-dribbble.png</li>
+			<li><strong>Facebook:</strong> icon-facebook.png</li>
+			<li><strong>Flickr:</strong> icon-flickr.png</li>
+			<li><strong>Forrst:</strong> icon-forrst.png</li>
+			<li><strong>Foursquare:</strong> icon-foursquare.png</li>
+			<li><strong>Friendfeed:</strong> icon-friendfeed.png</li>
+			<li><strong>Gowalla:</strong> icon-gowalla.png</li>
+			<li><strong>Grooveshark:</strong> icon-grooveshark.png</li>
+			<li><strong>Lastfm:</strong> icon-lastfm.png</li>
+			<li><strong>LinkedIn:</strong> icon-linkedin.png</li>
+			<li><strong>Pinterest:</strong> icon-pinterest.png</li>
+			<li><strong>Posterous:</strong> icon-posterous.png</li>
+			<li><strong>RSS:</strong> icon-rss.png</li>
+			<li><strong>Skype:</strong> icon-skype.png</li>
+			<li><strong>Tumblr:</strong> icon-tumblr.png</li>
+			<li><strong>Twitter:</strong> icon-twitter.png</li>
+			<li><strong>Vimeo:</strong> icon-vimeo.png</li>
+			<li><strong>YouTube:</strong> icon-youtube.png</li>
+		</ul>
+	</div>
+	</div>
+</div>
+<!-- End Question Block -->
+
+  <div class="title">
+    <h3>Portfolio</h3>
+    <hr class="knot" />
+  </div>
+  
+<!-- Begin Question Block -->
+<div class="toggle">
+
+	<h2 class="trigger">Portfolio I</h2>
+	<div class="togglebox">
+	<div>
+		<p>Portfolio layout I (index.html) has 2 columns of thumbnails with item titles and descriptions.</p>
+		<p>Here's the basic structure of the thumbnail wrapper in this layout:</p> 
+		<img src="inc/images/1.jpg" alt="gallery thumbnails" />
+		<p><strong>data-id</strong> is for generating hash tag for each item. <br />With anchor link you are linking to the gallery html file. <br />And lastly the image is the item thumbnail.</p>
+		<br />
+		<p>If you would like to display the gallery slider above the thumbnails then you should add "zetaTop" class to the zetaSlider div, as follows: </p>
+		<img src="inc/images/8.jpg" alt="zetatop" />
+		<br />
+		<p>Here's the basic structure of the gallery in gallery html file:</p>
+		<img src="inc/images/2.jpg" alt="gallery" />
+		<p>Captions should be included in </p>
+		<pre>&lt;span class=&quot;caption&quot;&gt;&lt;p&gt;Caption text&lt;/p&gt;&lt;/span&gt;</pre>
+		
+		<p>The gallery html files should be in the root with the rest of the html files. You can include the gallery images in a folder. Please make sure the image and gallery html file paths are correct.</p>
+<br />
+<p>You can change the warning message by editing the following:</p>
+<img src="inc/images/4.jpg" alt="warning" />
+<p>You can also disable the warning message by changing 'true' with 'false' or by change the warning message timeout in the script at the bottom of the html file:</p>
+<img src="inc/images/5.jpg" alt="warning" />
+	</div>
+	</div>
+</div>
+<!-- End Question Block -->
+
+<!-- Begin Question Block -->
+<div class="toggle">
+
+	<h2 class="trigger">Portfolio II</h2>
+	<div class="togglebox">
+	<div>
+		<p>Portfolio layout II (index2.html) has 4 columns of thumbnails with item titles and descriptions.</p>
+		<p>Here's the basic structure of the thumbnail wrapper in this layout:</p> 
+		<img src="inc/images/3.jpg" alt="gallery thumbnails" />
+		<p><strong>data-id</strong> is for generating hash tag for each item. <br />With anchor link you are linking to the gallery html file. <br />And lastly the image is the item thumbnail.</p>
+		<br />
+		<p>If you would like to display the gallery slider above the thumbnails then you should add "zetaTop" class to the zetaSlider div, as follows: </p>
+		<img src="inc/images/8.jpg" alt="zetatop" />
+		<br />
+		<p>Here's the basic structure of the gallery in gallery html file:</p>
+		<img src="inc/images/2.jpg" alt="gallery" />
+		<p>Captions should be included in </p>
+		<pre>&lt;span class=&quot;caption&quot;&gt;&lt;p&gt;Caption text&lt;/p&gt;&lt;/span&gt;</pre>
+		
+		<p>The gallery html files should be in the root with the rest of the html files. You can include the gallery images in a folder. Please make sure the image and gallery html file paths are correct.</p>
+<br />
+<p>You can change the warning message by editing the following:</p>
+<img src="inc/images/4.jpg" alt="warning" />
+<p>You can also disable the warning message by changing 'true' with 'false' or by change the warning message timeout in the script at the bottom of the html file:</p>
+<img src="inc/images/5.jpg" alt="warning" />
+	</div>
+	</div>
+</div>
+<!-- End Question Block -->
+  
+
+
+  <!-- End Question Block -->
+  <div class="title">
+  <h3>Sources</h3>
+  <hr class="knot" />
+</div>
+
+<!-- Begin Question Block -->
+<div class="toggle">
+
+	<h2 class="trigger">Scripts</h2>
+	<div class="togglebox">
+	<div> 
+		<ul>
+			<li>DDSmoothMenu: <a href="http://www.dynamicdrive.com/dynamicindex1/ddsmoothmenu.htm">[Source]</a></li>
+			<li>Tipsy: <a href="http://onehackoranother.com/projects/jquery/tipsy/">[Source]</a></li>
+			<li>Tinynav: <a href="http://tinynav.viljamis.com">[Source]</a></li>
+			<li>Twitter: <a href="http://code.google.com/p/twitterjs/">[Source]</a></li>
+		</ul>
+	</div>
+	</div>
+</div>
+<!-- End Question Block -->
+
+<!-- Begin Question Block -->
+<div class="toggle">
+
+	<h2 class="trigger">Fonts</h2>
+	<div class="togglebox">
+	<div> 
+		<ul>
+			<li>Delicious: <a href="http://www.fontsquirrel.com/fonts/Delicious">[Source]</a></li>
+			<li>Brawler: <a href="http://www.fontsquirrel.com/fonts/brawler">[Source]</a></li>
+		</ul>
+	</div>
+	</div>
+</div>
+<!-- End Question Block -->
+
+<!-- Begin Question Block -->
+<div class="toggle">
+
+	<h2 class="trigger">Icons</h2>
+	<div class="togglebox">
+	<div> 
+		<ul>
+			<li>Social Media: <a href="http://lifetreecreative.com/icons/">[Source]</a></li>
+			<li>Meta: <a href="http://iconsweets2.com/">[Source]</a></li>
+			<li>Twitter: <a href="http://picons.me/">[Source]</a></li>
+		</ul>
+	</div>
+	</div>
+</div>
+<!-- End Question Block -->
+   
+  <div class="title">
+    <h3>Thank You</h3>
+    <hr class="knot" />
+  </div>
+  
+  <!-- Begin Question Block -->
+  
+  <div class="question-container">
+    <div class="info"> Once again, thank you so much for purchasing this theme. As we said at the beginning, we'd be glad to help you if you have any questions relating to this theme. No guarantees, but we'll do our best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section. <em><a href="http://themeforest.net/user/elemis">elemis</a></em></div>
+  </div>
+  
+  <!-- End Question Block --> 
+  
+</div>
+<!-- End Wrapper -->
+
+</body>
+</html>

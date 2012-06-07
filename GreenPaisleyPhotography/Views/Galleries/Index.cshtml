@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Galleries";
+    ViewBag.Message = "Galleries";
+}
+
+<script type="text/javascript" src="@("~/Content/jupither/template/style/js/set-slider.min.js")"></script>
+  
+  <!-- Begin ZetaSlider -->
+  <div class="zetaSlider zetaTop" id="zetaSlider">
+    <div class="thumbnail-wrapper col4">
+      <ul class="zetaThumbs clearfix">
+        <li data-id="black-white" class="item"> <a href="@Url.Action("View", "Galleries", new { category = "bnw" })"><span class="roll" ></span><img src="@Url.Content("~/Content/images/Thumbs/BandW.jpg")" alt="" /></a>
+          <div class="text">
+            <h4>Black & White</h4>
+          </div>
+        </li>
+        <li data-id="events" class="item"> <a href="@Url.Action("View", "Galleries", new { category = "events" })"><span class="roll" ></span><img src="@Url.Content("~/Content/images/Thumbs/events.jpg")" alt="" /></a>
+          <div class="text">
+            <h4>Events</h4>
+          </div>
+        </li>
+        <li data-id="engagement" class="item"> <a href="@Url.Action("View", "Galleries", new { category = "engagement" })"><span class="roll" ></span><img src="@Url.Content("~/Content/images/Thumbs/engagement.jpg")" alt="" /></a>
+          <div class="text">
+            <h4>Engagement</h4>
+          </div>
+        </li>
+        <li data-id="weddings" class="item"> <a href="@Url.Action("View", "Galleries", new { category = "wedding" })"><span class="roll" ></span><img src="@Url.Content("~/Content/images/Thumbs/wedding.jpg")" alt="" /></a>
+          <div class="text">
+            <h4>Weddings</h4>
+          </div>
+        </li>
+        <li data-id="baby" class="item"> <a href="@Url.Action("View", "Galleries", new { category = "baby" })"><span class="roll" ></span><img src="@Url.Content("~/Content/images/Thumbs/baby.jpg")" alt="" /></a>
+          <div class="text">
+            <h4>Baby</h4>
+          </div>
+        </li>
+        <li data-id="portrait" class="item"> <a href="@Url.Action("View", "Galleries", new { category = "portrait" })"><span class="roll" ></span><img src="@Url.Content("~/Content/images/Thumbs/portrait.jpg")" alt="" /></a>
+          <div class="text">
+            <h4>Portrait</h4>
+          </div>
+        </li>
+        <li data-id="sports" class="item"> <a href="@Url.Action("View", "Galleries", new { category = "sports" })"><span class="roll" ></span><img src="@Url.Content("~/Content/images/Thumbs/sports.jpg")" alt="" /></a>
+          <div class="text">
+            <h4>Sports</h4>
+          </div>
+        </li>
+        <li data-id="just-for-fun" class="item"> <a href="@Url.Action("View", "Galleries", new { category = "justforfun" })"><span class="roll" ></span><img src="@Url.Content("~/Content/images/Thumbs/justforfun.jpg")" alt="" /></a>
+          <div class="text">
+            <h4>Just For Fun</h4>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="zetaHolder">
+      <div class="zetaWrapper">
+        <div class="zetaEmpty isDraggingFalse"> 
+          <!-- populated by script --> 
+        </div>
+      </div>
+      <div class="zetaControls"> <a class="zetaBtnClose" href="#">Close</a> <a class="zetaBtnPrev" href="#">Previous</a> <a class="zetaBtnNext" href="#">Next</a> </div>
+        <div class="zetaWarning">
+            <div class="drag">Drag</div>
+            <div class="arrow">Use arrows</div>
+            <div class="keys">Use keys</div>
+        </div>
+    </div>
+  </div>
+<!-- End ZetaSlider --> 
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#zetaSlider').zetaSlider({
+            warningMessage: true,
+            warningMessageTimeout: 4000
+        });
+    });
+</script>

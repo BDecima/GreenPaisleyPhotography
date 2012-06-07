@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'DeliciousSmallCapsRegular';
+    src: url('delicious/delicious-smallcaps-webfont.eot');
+    src: url('delicious/delicious-smallcaps-webfont.eot?#iefix') format('embedded-opentype'),
+         url('delicious/delicious-smallcaps-webfont.woff') format('woff'),
+         url('delicious/delicious-smallcaps-webfont.ttf') format('truetype'),
+         url('delicious/delicious-smallcaps-webfont.svg#DeliciousSmallCapsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
