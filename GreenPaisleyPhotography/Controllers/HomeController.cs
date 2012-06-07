@@ -19,12 +19,22 @@ namespace GreenPaisleyPhotography.Controllers
             return View();
         }
 
+        public ActionResult Product()
+        {
+            return View();
+        }
+
         public ActionResult Pricing()
         {
             return View();
         }
 
         public ActionResult Contact()
+        {
+            return View();
+        }
+
+        public ActionResult Error()
         {
             return View();
         }

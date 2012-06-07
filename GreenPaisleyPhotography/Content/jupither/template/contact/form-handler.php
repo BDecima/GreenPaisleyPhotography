@@ -2,13 +2,13 @@
 include('SMTPClass.php');
 
 $use_smtp = '0';
-$emailto = 'yourname@yourdomain.com';
+$emailto = 'jennifer@greenpaisleyphotography.com';
 
 	// retrieve from parameters
 	$emailfrom = isset($_POST["email"]) ? $_POST["email"] : "";
 	$nocomment = isset($_POST["nocomment"]) ? $_POST["nocomment"] : "";
-	$subject = 'Email from Jupither';
-	$message = '';
+	$subject = isset($_POST["subject"]) ? $_POST["subject"] : "";
+	$message = isset($_POST["message"]) ? $_POST["message"] : "";
 	$response = '';
 	$response_fail = 'There was an error verifying your details.';
 	
